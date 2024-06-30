@@ -1,22 +1,28 @@
 #Student info
 
 ##Main info
+
+[Personal photo](3.jpg)
+
 First name:**Uladzislau**
 Last name:**Bychkou**
 
-Contacts:
+###Contacts:
+
 *vladb.52@gmail.com
 *@bedrauk
 
-About me:
+###About me:
 >I came to become a professional programmer, I already have experience in writing programs in C#, Python, Delphi as part of my specialty training at a higher education institution.Nowadays I work as an engineer, my task is to modernize metalworking machines
 
 ##Skills
-Programming languages:
+
+###Programming languages:
 Python, C#, Autolisp, Delphi
 Other: CAM, CAE, CAD, Office
 
-Example from codewars:
+###Example from codewars:
+
 ```from collections import Counter
 
 import re
@@ -27,7 +33,7 @@ def top_3_words(text):
 
     return [w for w,_ in tmp.most_common(3)]```
 
-some other tasks from stepik:
+###Some tasks from stepik:
 
 ```def magic_sphere():
     answ = [['Бесспорно', 'Предрешено', 'Никаких сомнений', 'Определённо да', 'Можешь быть уверен в этом'],
@@ -66,9 +72,12 @@ some other tasks from stepik:
     return passws```
 
 ##About work
-Jobs: Only as engineer
+###Jobs
 
-Done projects: https://Bedrauk.github.io/rsschool-cv/cv
+Only as engineer
+
+[Done projects](https://Bedrauk.github.io/rsschool-cv/cv)
 
 ##About English
-English level: A2
+
+English level: A2 (not confirmed)
