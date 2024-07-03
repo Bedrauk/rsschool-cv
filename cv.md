@@ -1,4 +1,3 @@
-https://Bedrauk.github.io/rsschool-cv/cv
 
 #Student info
 
