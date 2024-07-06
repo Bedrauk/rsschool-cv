@@ -6,28 +6,33 @@
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+<body class="page">
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+              <li><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li><a href="#summary" class="nav-link">Summary</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#example" class="nav-link">Code example</a></li>
+              <li><a href="#done-projects" class="nav-link">Done Projects</a></li>
+              <li><a href="#english" class="nav-link">English</a></li>
             </ul>
           </nav>
     </header>
-    <main> 
+    <main>
+        <div>
+             
         <section class="section" id="profile">
+            <img class="avatar" src="./assets/img/3.jpg" alt="avatar">
             <h1 class="section-title">Uladzislau Bychkou</h1>
-@bedrauk
         </section> 
         <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
-            @bedrauk
-            vladb.52@gmail.com
+            <ul>
+                <li>@bedrauk</li>
+                <li>vladb.52@gmail.com</li>
+            </ul>
         </section>
         <section class="section" id="summary">
             <h2 class="section-title">Summary</h2>
@@ -44,8 +49,15 @@
                 Python, C#, Autolisp, Delphi
             </div>
         </section>
+        <section class="section" id="other-skills">
+            <h2 class="section-title">Other</h2>
+            <div>
+                SolidWorks, Kompas3D, TFlex, Autocad, Inventor 
+            </div>
+        </section>
         <section class="section" id="example">
             <h2 class="section-title">Code examples</h2>
+            <pre>
             <code>
                 def gen_pass():
                     digits = '1234567890'
@@ -67,22 +79,7 @@
                         res = []
                     return passws
             </code>
-            <code>
-                def magic_sphere():
-                    answ = [['Бесспорно', 'Предрешено', 'Никаких сомнений', 'Определённо да', 'Можешь быть уверен в этом'],
-                            ['Мне кажется - да', 'Вероятнее всего', 'Хорошие перспективы', 'Знаки говорят - да', 'Скорее да, чем нет'],
-                            ['Пока неясно, попробуй снова', 'Спроси позже', 'Лучше не рассказывать', 'Сейчас нельзя предсказать', 'Сконцентрируйся и спроси опять'],
-                            ['Даже не думай', 'Мой ответ - нет', 'По моим данным - нет', 'Перспективы не очень хорошие', 'Весьма сомнительно']]
-                    text = 'Чем могу вам помочь?'
-                    print('''Я магический шар, в моей памяти содержатся данные о прошлом, настоящем и будущем.
-                    Если хочешь меня о чем то спросить, то сперва подумайте как повляет на вас мой ответ''')
-                    name = input('Как вас зовут?\n')
-                    print(f'Приветсвую, {name}!')
-                    while text not in ['stop', 'нет', 'пока', 'стоп']:
-                        print('Записываю ваш вопрос, говорите')
-                        print(answ[random.randint(0, 3)][random.randint(0, 4)])
-                        text = input('Еще есть вопросы?\n')
-            </code>
+            </pre>
         </section>
         <section class="section" id="done-projects">
             <h2 class="section-title">Done projects</h2>
@@ -92,6 +89,11 @@
             <h2 class="section-title">English</h2>
             English level: A2 (not confirmed)
         </section>
+        </div>
     </main>
+    <footer class="footer">
+        &copy; 2024
+        <img class="logo-img" src="./assets/img/logo-rsschool3.png" alt="rslogo">
+    </footer>
 </body>
 </html>
