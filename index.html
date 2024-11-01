@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body class="page">
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+              <li><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li><a href="#summary" class="nav-link">Summary</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#example" class="nav-link">Code example</a></li>
+              <li><a href="#done-projects" class="nav-link">Done Projects</a></li>
+              <li><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div>
+             
+        <section class="section" id="profile">
+            <img class="avatar" src="./assets/img/3.jpg" alt="avatar">
+            <h1 class="section-title">Uladzislau Bychkou</h1>
+        </section> 
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li>@bedrauk</li>
+                <li>vladb.52@gmail.com</li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            I came to become a professional programmer, I already have experience in writing programs in C#, 
+            Python, Delphi as part of my specialty training at a higher education institution.Nowadays I work as an engineer,
+             my task is to modernize metalworking machines
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+        </section>
+        <section class="section" id="pr-langs">
+            <h2 class="section-title">Programming languages</h2>
+            <div>
+                Python, C#, Autolisp, Delphi
+            </div>
+        </section>
+        <section class="section" id="other-skills">
+            <h2 class="section-title">Other</h2>
+            <div>
+                SolidWorks, Kompas3D, TFlex, Autocad, Inventor 
+            </div>
+        </section>
+        <section class="section" id="example">
+            <h2 class="section-title">Code examples</h2>
+            <pre>
+            <code>
+                def gen_pass():
+                    digits = '1234567890'
+                    low_lett = 'abcdefghijklmnopqrstuvwxyz'
+                    up_lett = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+                    symbols = '!@#$%^&*()_+|\\?/.,`~;:"<>[]{}'
+                    passws = []
+                    res = []
+                    total = int(input('Сколько паролей генерировать?\n'))
+                    length = int(input('Сколько символов должно быть в пароле?\n'))
+                    tmp = length // 4
+                    for i in range(total):
+                        for j in (digits, low_lett, up_lett, symbols):
+                            res += sample(j, tmp)
+                        for i in range(length - len(res)):
+                            res += choice(choice([digits, low_lett, up_lett, symbols]))
+                        shuffle(res)
+                        passws.append(''.join(res))
+                        res = []
+                    return passws
+            </code>
+            </pre>
+        </section>
+        <section class="section" id="done-projects">
+            <h2 class="section-title">Done projects</h2>
+            https://bedrauk.github.io/rsschool-cv/cv
+        </section>
+        <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            English level: A2 (not confirmed)
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>        
+            2024
+            <a href="https://github.com/Bedrauk">@bedrauk</a>
+        </div>
+        <div>
+            <a href="https://rs.school/courses/javascript-ru"><img class="logo-img" src="./assets/img/logo-rsschool3.png" alt="rslogo"></a>
+        </div>
+    </footer>
+</body>
+</html>
