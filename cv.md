@@ -75,11 +75,16 @@ def gen_pass():
 ```
 
 ##About work
+
 ###Jobs
 
 Only as engineer
 
 [Done projects](https://Bedrauk.github.io/rsschool-cv/cv)
+
+##Education
+
+Gomel State Technical University Sukhoi / Machine building
 
 ##About English
 
