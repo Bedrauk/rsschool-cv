@@ -1,4 +1,4 @@
 # rsschool-cv
-main folder for school
+CV#2. HTML, CSS & Git Basics
 
-<https://Bedrauk.github.io/rsschool-cv/cv>
+<https://Bedrauk.github.io/rsschool-cv/>
